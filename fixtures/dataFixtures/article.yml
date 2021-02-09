@@ -1,0 +1,17 @@
+
+  entity: Article
+  items:
+    article1:
+      title: Typeorm-test-fixture is fast
+      content: As fast as sql !
+      user: '@user1'
+      tags: ['@tag_fast', '@tag_maintainable']
+
+    article2:
+      title: Typeorm-test-fixture is maintainable
+      content: Stop working with unreadable sql files
+      user: '@user1'
+      tags: ['@tag_cool', '@tag_maintainable']
+
+
+

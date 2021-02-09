@@ -1,0 +1,14 @@
+entity: User
+items:
+
+  user1:
+    firstName: Ada
+    lastName: Lovelace
+
+  user2:
+    firstName: Katherine
+    lastName: Johnson
+
+  batch_user{1..100}:
+    firstName: 'firstName($current)'
+    lastName: 'lastName($current)'

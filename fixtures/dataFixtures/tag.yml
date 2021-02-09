@@ -1,0 +1,15 @@
+entity: Tag
+items:
+
+  tag_fast:
+    name : Fast
+
+  tag_maintainable:
+    name : Maintainable
+
+  tag_cool:
+    name: Cool
+
+  tag_batch{1..10} :
+    name: 'tag($current)'
+
